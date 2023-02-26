@@ -196,7 +196,7 @@ namespace RizonFinals
 
                     if (score > Constantitems)
                     {
-                        Console.WriteLine("Score cannot be higher than constant item. Returning to Main Menu");
+                        Console.WriteLine("Score cannot be higher than item limit. Returning to Main Menu");
                         Names.RemoveAt(Names.Count - 1);
                         return;
                     }
